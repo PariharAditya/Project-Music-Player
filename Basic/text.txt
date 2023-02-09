@@ -1,0 +1,9 @@
+String userData = rs.getString("MeetingID") 
+        + " " + rs.getString("ScheduledTime")
+        + " " + rs.getString("ScheduledDate") 
+        + " " + rs.getString("MobileNo")
+        + " " + rs.getString("participant")
+        + " " + rs.getString("ParticipantDOB")
+        + " " + rs.getString("EmailID");
+        System.out.println(userData);
+ 
